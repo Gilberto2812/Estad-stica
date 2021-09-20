@@ -1,6 +1,6 @@
 #Buscando el mejor modelo
-source("funciones.R")
-buscar_arma(c1,0,20)
+source("https://raw.githubusercontent.com/Gilberto2812/Estad-stica/main/funciones.R")
+buscar_arma(c1,0,15)
 #ARMA(12,12)   AIC  -276.4801
 rm(buscar_arma)
 
