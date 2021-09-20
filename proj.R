@@ -27,7 +27,7 @@ summary(mod)
 #Modelo cuadrado
 t<-seq(2003.5,2020,by=1/12)
 mod_cua<-lm(s~poly(t,2,raw=T))
-summary(mod_cub)
+summary(mod_cua)
 
 #Modelo de potencia
 z<-log(s)
